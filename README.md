@@ -1,4 +1,7 @@
-# jornalista-francisco-mesquita
+# Web site of school E.E.Jornalista Francisco Mesquita
+> [jornalista-francisco-mesquita.web.app](https://jornalista-francisco-mesquita.web.app)
+
+> [Facebook Page](https://www.facebook.com/JornalistaFranciscoMesquita)
 
 ## Project setup
 ```
