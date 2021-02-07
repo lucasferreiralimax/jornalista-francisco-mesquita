@@ -1,8 +1,8 @@
 {
   "message": {
-    "hello": "Seja bem-vindo",
-    "message-1": "Web site em desenvolvimento",
-    "message-2": "se deseja colaborar acesse o {0}",
-    "repo": "repositório público"
+    "hello": "Bienvenue",
+    "message-1": "Site en développement",
+    "message-2": "si vous souhaitez collaborer, accédez au {0}",
+    "repo": "référentiel public"
   }
 }
