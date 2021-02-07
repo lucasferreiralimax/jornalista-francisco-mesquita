@@ -1,1 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["locale-ja-json"],{"0423":function(e){e.exports=JSON.parse('{"message":{"hello":"ようこそ","message-1":"開発中のウェブサイト","message-2":"共同でアクセスしたい場合は、 {0}","repo":"公開リポジトリ"}}')}}]);

@@ -1,1 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["locale-fr-json"],{f693:function(e){e.exports=JSON.parse('{"message":{"hello":"Seja bem-vindo","message-1":"Web site em desenvolvimento","message-2":"se deseja colaborar acesse o {0}","repo":"repositório público"}}')}}]);
