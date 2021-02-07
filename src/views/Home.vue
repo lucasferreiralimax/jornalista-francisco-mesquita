@@ -2,6 +2,7 @@
   <div class="home">
     <img class="logo" alt="E.E.Jornalista Francisco Mesquita - Brasil" src="../assets/brasil.jpg">
     <HelloWorld :msg="$t('message.hello')"/>
+    <iframe class="facebook" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FJornalistaFranciscoMesquita%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
   </div>
 </template>
 
@@ -27,6 +28,8 @@ export default {
     width: auto;
   }
 }
+
+.facebook { border-radius: 10px; }
 
 @keyframes logo_animation {
   0% {

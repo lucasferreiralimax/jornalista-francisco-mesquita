@@ -1,6 +1,6 @@
 <template>
-  <router-view/>
   <TranslateSelect/>
+  <router-view/>
 </template>
 
 <script>
