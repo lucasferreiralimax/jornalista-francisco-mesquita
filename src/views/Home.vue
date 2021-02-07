@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <img class="logo" alt="E.E.Jornalista Francisco Mesquita - Brasil" src="../assets/brasil.jpg">
-    <HelloWorld msg="Seja bem-vindo"/>
+    <HelloWorld :msg="$t('message.hello')"/>
   </div>
 </template>
 

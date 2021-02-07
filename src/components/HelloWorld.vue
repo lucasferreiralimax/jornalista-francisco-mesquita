@@ -1,8 +1,10 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <p>Web site em desenvolvimento</p>
-    <p>se deseja colaborar acesse o <a href="#">repositório público</a></p>
+    <p>{{ $t('message.message-1') }}</p>
+    <i18n-t keypath="message.message-2" tag="p" for="message.repo">
+      <a href="https://github.com/lucasferreiralimax/jornalista-francisco-mesquita" target="_blank">{{ $t('message.repo') }}</a>
+    </i18n-t>
   </div>
 </template>
 
