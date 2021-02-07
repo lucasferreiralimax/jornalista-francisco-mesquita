@@ -1,0 +1,8 @@
+{
+  "message": {
+    "hello": "Welcome",
+    "message-1": "Website in development",
+    "message-2": "if you want to collaborate access the {0}",
+    "repo": "public repository"
+  }
+}
