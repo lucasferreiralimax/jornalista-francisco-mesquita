@@ -4,15 +4,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/browserconfig.xml"
   },
   {
-    "revision": "290dee6244ca68518c99",
-    "url": "/css/app.1b40ba8e.css"
+    "revision": "ad1246be59b1ee9b5b25",
+    "url": "/css/app.246340da.css"
   },
   {
     "revision": "5f6c851ee3acb28f44ba55cedd0e477b",
     "url": "/img/brasil.5f6c851e.jpg"
   },
   {
-    "revision": "aa417113ca804b3d7e562f3210484c19",
+    "revision": "d73781a7b374078ad96b7322c68d3cc7",
     "url": "/index.html"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/js/about.e33b2a8b.js"
   },
   {
-    "revision": "290dee6244ca68518c99",
-    "url": "/js/app.879b661a.js"
+    "revision": "ad1246be59b1ee9b5b25",
+    "url": "/js/app.405934f3.js"
   },
   {
     "revision": "42865b781904f48d77d5",

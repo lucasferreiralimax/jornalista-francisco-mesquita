@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.679527ed7e9bb1d642faba8ecb82cb49.js"
+  "/precache-manifest.2b28edc3aa00355b13807e1ecc30c51d.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "jornalista-francisco-mesquita"});
