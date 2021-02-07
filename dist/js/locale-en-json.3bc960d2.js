@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["locale-en-json"],{edd4:function(e){e.exports=JSON.parse('{"message":{"hello":"Welcome","message-1":"Website in development","message-2":"if you want to collaborate access the {0}","repo":"public repository"}}')}}]);

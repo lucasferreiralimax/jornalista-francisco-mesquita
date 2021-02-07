@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["locale-ru-json"],{7704:function(e){e.exports=JSON.parse('{"message":{"hello":"Добро пожаловать","message-1":"Сайт в разработке","message-2":"если вы хотите сотрудничать, получите доступ к {0}","repo":"публичный репозиторий"}}')}}]);
