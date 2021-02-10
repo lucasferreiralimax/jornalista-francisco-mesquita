@@ -1,8 +1,7 @@
 {
-  "message": {
-    "hello": "Welcome",
-    "message-1": "Website in development",
-    "message-2": "if you want to collaborate access the {0}",
-    "repo": "public repository"
-  }
+  "name": "E.E.Jornalista Francisco Mesquita",
+  "welcome": "Welcome",
+  "info": "Elementary Education - 3rd, 4th, 5th, 6th, 7th and 8th Grade\n High School - 1st, 2nd and 3rd Grade\n Eja - High School - 1st, 2nd and 3rd Term\n Initial Cycle of 9 Years - 3rd Year",
+  "footer": "@:name {0}",
+  "repo": "public repository"
 }

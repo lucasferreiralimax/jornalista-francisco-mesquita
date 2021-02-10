@@ -1,8 +1,7 @@
 {
-    "message": {
-      "hello": "Benvenuto",
-      "message-1": "Sito in sviluppo",
-      "message-2": "se vuoi collaborare accedi al file {0}",
-      "repo": "archivio pubblico"
-    }
-  }
+  "name": "E.E.Jornalista Francisco Mesquita",
+  "welcome": "Benvenuto",
+  "info": "Istruzione elementare - 3 °, 4 °, 5 °, 6 °, 7 ° e 8 ° grado\n Scuola superiore - 1 °, 2 ° e 3 ° grado\n Eja - Scuola superiore - 1 °, 2 ° e 3 ° trimestre\n Ciclo iniziale di 9 anni - 3 ° anno",
+  "footer": "@:name {0}",
+  "repo": "archivio pubblico"
+}

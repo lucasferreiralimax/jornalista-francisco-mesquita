@@ -1,8 +1,7 @@
 {
-  "message": {
-    "hello": "Seja bem-vindo",
-    "message-1": "Web site em desenvolvimento",
-    "message-2": "se deseja colaborar acesse o {0}",
-    "repo": "repositório público"
-  }
+  "name": "E.E.Jornalista Francisco Mesquita",
+  "welcome": "Seja bem-vindo",
+  "info": "Ensino Fundamental - 3ª, 4ª, 5ª, 6ª, 7ª e 8ª Série\n Ensino Médio - 1ª, 2ª e 3ª Série\n Eja - Ensino Médio - 1º, 2º e 3º Termo\n Ciclo Inicial de 9 Anos - 3º Ano",
+  "footer": "@:name {0}",
+  "repo": "repositório público"
 }

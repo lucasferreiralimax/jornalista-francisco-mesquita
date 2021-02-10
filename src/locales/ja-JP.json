@@ -1,8 +1,7 @@
 {
-  "message": {
-    "hello": "ようこそ",
-    "message-1": "開発中のウェブサイト",
-    "message-2": "共同でアクセスしたい場合は、 {0}",
-    "repo": "公開リポジトリ"
-  }
+  "name": "E.E.Jornalista Francisco Mesquita",
+  "welcome": "ようこそ",
+  "info": "初等教育-3年生、4年生、5年生、6年生、7年生、8年生\n 高校-1年生、2年生、3年生\n Eja - 高校-第1、第2、第3学期\n 9年の初期サイクル-3年目",
+  "footer": "@:name {0}",
+  "repo": "公開リポジトリ"
 }

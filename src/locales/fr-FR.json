@@ -1,8 +1,7 @@
 {
-  "message": {
-    "hello": "Bienvenue",
-    "message-1": "Site en développement",
-    "message-2": "si vous souhaitez collaborer, accédez au {0}",
-    "repo": "référentiel public"
-  }
+  "name": "E.E.Jornalista Francisco Mesquita",
+  "welcome": "Bienvenue",
+  "info": "Enseignement élémentaire - 3e, 4e, 5e, 6e, 7e et 8e année\n Lycée - 1re, 2e et 3e année\n Eja - Lycée - 1er, 2e et 3e quadrimestre\n Cycle initial de 9 ans - 3e année",
+  "footer": "@:name {0}",
+  "repo": "référentiel public"
 }
