@@ -1,14 +1,16 @@
 <template>
   <TranslateSelect/>
   <router-view/>
+  <Footer/>
 </template>
 
 <script>
 import TranslateSelect from '@/components/TranslateSelect.vue';
+import Footer from '@/components/Footer.vue';
 
 export default {
   name: 'App',
-  components: { TranslateSelect },
+  components: { TranslateSelect, Footer },
 };
 </script>
 
