@@ -1,7 +1,7 @@
 module.exports = {
   pwa: {
     name: 'E.E.Jornalista Francisco Mesquita',
-    themeColor: '#ffffff'
+    themeColor: '#ffffff',
   },
-  productionSourceMap: false
-}
+  productionSourceMap: false,
+};
