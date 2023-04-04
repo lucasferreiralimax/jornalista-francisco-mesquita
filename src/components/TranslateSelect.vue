@@ -39,7 +39,7 @@ export default defineComponent({
 <style lang="scss">
 .translate-options {
   padding: 10px;
-  margin-bottom: 50px;
+  margin-bottom: 5px;
   border-radius: 5px;
   cursor: pointer;
 }
