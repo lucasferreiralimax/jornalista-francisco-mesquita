@@ -8,7 +8,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@master
+      - name: Use Node.js
+        uses: actions/setup-node@master
+        with:
+          node-version: '16.20.0'
       - name: Installing project dependencies
         run: npm install --legacy-peer-deps
       - name: Building the project
