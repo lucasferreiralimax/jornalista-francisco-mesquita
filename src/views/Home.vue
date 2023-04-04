@@ -50,7 +50,6 @@ p { white-space: break-spaces; }
     text-align: left;
   }
   @media only screen and (max-width: 820px) {
-    background-color: red;
     flex-direction: column;
      & div {
       padding: 0 2rem 2rem;
