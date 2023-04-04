@@ -40,7 +40,7 @@ export default {
   width: 100px;
 }
 
-p { white-space: break-spaces; }
+p { white-space: pre-line; }
 
 .home {
   display: flex;
