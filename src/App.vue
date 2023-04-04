@@ -16,8 +16,7 @@ export default {
 
 <style lang="scss">
 body {
-  animation: 6s background_animation infinite alternate;
-  padding: 20px 0;
+  padding: 2rem 0 0;
   margin: 0;
   display: flex;
   align-items: center;
@@ -32,17 +31,5 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-}
-
-@keyframes background_animation {
-  0% {
-    box-shadow: inset 0 10px 250px #ff0;
-  }
-  50% {
-    box-shadow: inset 0 10px 250px rgb(0, 110, 255);
-  }
-  100% {
-    box-shadow: inset 0 10px 250px rgb(0, 165, 63);
-  }
 }
 </style>

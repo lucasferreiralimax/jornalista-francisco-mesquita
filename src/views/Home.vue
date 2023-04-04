@@ -25,6 +25,8 @@ export default {
 .logo-content {
   display: flex;
   align-items: center;
+  padding-top: 0 !important;
+  padding-left: 0 !important;
 }
 .title {
   font-size: 1.2rem;
@@ -46,7 +48,7 @@ p { white-space: pre-line; }
   display: flex;
   & div {
     flex: 1;
-    padding: 2rem;
+    padding: 0 2rem 2rem;
     text-align: left;
   }
   @media only screen and (max-width: 820px) {
