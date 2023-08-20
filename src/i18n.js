@@ -1,7 +1,7 @@
 import { nextTick } from 'vue';
 import { createI18n } from 'vue-i18n';
 
-export const SUPPORT_LOCALES = ['pt-BR', 'en-US', 'ja-JP', 'ru-RU', 'es-ES', 'fr-FR', 'it-IT', 'zh-CN'];
+export const SUPPORT_LOCALES = ['pt-BR', 'en-US', 'ja-JP', 'ru-RU', 'es-ES', 'fr-FR', 'it-IT', 'tr-TR', 'zh-CN'];
 
 export function setI18nLanguage(i18n, locale) {
   if (i18n.mode === 'legacy') {
