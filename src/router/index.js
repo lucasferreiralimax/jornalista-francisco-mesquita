@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import { SUPPORT_LOCALES, setI18nLanguage, loadLocaleMessages } from '../i18n';
-import Home from '../views/Home.vue';
+import HomeView from '../views/HomeView.vue';
 
 export default function setupRouter(i18n) {
   const locale = i18n.mode === 'legacy' ? i18n.global.locale : i18n.global.locale.value;
@@ -9,12 +9,12 @@ export default function setupRouter(i18n) {
     {
       path: '/:locale/',
       name: 'Home',
-      component: Home,
+      component: HomeView,
     },
     {
       path: '/:locale/about',
       name: 'About',
-      component: () => import(/* webpackChunkName: "about" */ '../views/About.vue'),
+      component: () => import('../views/AboutView.vue'),
     },
     {
       path: '/:pathMatch(.*)*',
@@ -23,7 +23,7 @@ export default function setupRouter(i18n) {
   ];
 
   const router = createRouter({
-    history: createWebHistory(process.env.BASE_URL),
+    history: createWebHistory(import.meta.env.BASE_URL),
     routes,
   });
 
@@ -48,3 +48,4 @@ export default function setupRouter(i18n) {
 
   return router;
 }
+

@@ -1,3 +1,26 @@
+<script setup>
+import { watch, ref } from 'vue';
+import { useRouter } from 'vue-router';
+import { useI18n } from 'vue-i18n';
+import { SUPPORT_LOCALES } from '../i18n';
+
+const router = useRouter();
+const { locale } = useI18n({ useScope: 'global' });
+const currentLocale = ref(locale.value);
+const supportLocales = SUPPORT_LOCALES;
+
+watch(router.currentRoute, (route) => {
+  currentLocale.value = route.params.locale;
+});
+
+watch(currentLocale, (val) => {
+  router.push({
+    name: router.currentRoute.value.name,
+    params: { locale: val },
+  });
+});
+</script>
+
 <template>
   <select class="translate-options" v-model="currentLocale">
     <option
@@ -8,33 +31,6 @@
   </select>
 </template>
 
-<script>
-import { defineComponent, watch, ref } from 'vue';
-import { useRouter } from 'vue-router';
-import { useI18n } from 'vue-i18n';
-import { SUPPORT_LOCALES } from '../i18n';
-
-export default defineComponent({
-  name: 'TranslateSelect',
-  setup() {
-    const router = useRouter();
-    const { t, locale } = useI18n({ useScope: 'global' });
-    const currentLocale = ref(locale.value);
-    watch(router.currentRoute, (route) => {
-      currentLocale.value = route.params.locale;
-    });
-    watch(currentLocale, (val) => {
-      router.push({
-        name: router.currentRoute.value.name,
-        params: { locale: val },
-      });
-    });
-    return {
-      t, locale, currentLocale, supportLocales: SUPPORT_LOCALES,
-    };
-  },
-});
-</script>
 
 <style lang="scss">
 .translate-options {
