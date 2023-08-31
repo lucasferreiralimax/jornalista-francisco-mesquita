@@ -1,7 +1,7 @@
 <script setup>
 import { RouterView } from 'vue-router'
 import TranslateSelect from '@/components/TranslateSelect.vue'
-import FooterApp from '@/components/Footer.vue'
+import FooterApp from '@/components/FooterApp.vue'
 </script>
 
 <template>
