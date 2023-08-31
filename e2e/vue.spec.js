@@ -1,3 +1,4 @@
+/* eslint-env node */
 const { test, expect } = require('@playwright/test');
 
 // See here how to get started:
