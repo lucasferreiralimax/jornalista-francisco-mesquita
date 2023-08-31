@@ -1,13 +1,13 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterView } from 'vue-router'
 import TranslateSelect from '@/components/TranslateSelect.vue'
-import Footer from '@/components/Footer.vue'
+import FooterApp from '@/components/Footer.vue'
 </script>
 
 <template>
   <TranslateSelect />
   <RouterView />
-  <Footer />
+  <FooterApp />
 </template>
 
 <style lang="scss">
