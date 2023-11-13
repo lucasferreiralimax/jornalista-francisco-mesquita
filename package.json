@@ -11,18 +11,18 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {
-    "vue": "^3.3.4",
-    "vue-i18n": "^9.5.0",
+    "vue": "^3.3.8",
+    "vue-i18n": "^9.6.5",
     "vue-router": "^4.2.5"
   },
   "devDependencies": {
     "@playwright/test": "^1.39.0",
-    "@vitejs/plugin-vue": "^4.4.0",
+    "@vitejs/plugin-vue": "^4.4.1",
     "@vue/test-utils": "^2.4.1",
-    "eslint": "^8.51.0",
-    "eslint-plugin-vue": "^9.16.1",
+    "eslint": "^8.53.0",
+    "eslint-plugin-vue": "^9.18.1",
     "jsdom": "^22.1.0",
-    "sass": "^1.69.4",
+    "sass": "^1.69.5",
     "vite": "^4.5.0",
     "vitest": "^0.34.6"
   }
