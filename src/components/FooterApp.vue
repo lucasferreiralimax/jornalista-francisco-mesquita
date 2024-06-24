@@ -12,5 +12,16 @@ const { t } = useI18n();
 </template>
 
 <style scoped lang="scss">
+.footer {
+  background: #fff;
+  display: inline-flex;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  p {
+    margin: 0;
+    padding: 0;
+  }
+}
 a { color: #000; }
 </style>

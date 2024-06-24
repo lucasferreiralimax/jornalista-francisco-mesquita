@@ -34,13 +34,14 @@ watch(currentLocale, (val) => {
 
 <style lang="scss">
 .translate-options {
-  padding: 10px;
+  padding: 5px;
   margin-bottom: 5px;
   border-radius: 5px;
   cursor: pointer;
   position: fixed;
   top: 2rem;
   right: 2rem;
+  z-index: 11;
   box-shadow: 0 0 0 5px #fff, 0 0 0 7px rgba(0, 0, 0, .2), 0 0 10px 7px rgba(0, 0, 0, .2);
 }
 </style>

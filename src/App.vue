@@ -17,6 +17,8 @@ body {
   display: flex;
   justify-content: center;
   min-height: calc(100vh - 40px);
+  background: url('./assets/classroom.jpg');
+  background-size: cover;
 }
 
 #app {
