@@ -11,9 +11,9 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {
-    "vue": "^3.5.3",
+    "vue": "^3.5.4",
     "vue-i18n": "^9.14.0",
-    "vue-router": "^4.4.3"
+    "vue-router": "^4.4.4"
   },
   "devDependencies": {
     "@playwright/test": "^1.47.0",
