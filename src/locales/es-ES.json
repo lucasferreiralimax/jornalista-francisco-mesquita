@@ -1,12 +1,26 @@
 {
   "name": "E.E.Jornalista Francisco Mesquita",
   "welcome": "Bienvenido",
-  "tagline": "Escuela pública estatal que lleva educación a la Zona Este de São Paulo.",
+  "tagline": "Escuela pública estatal que lleva educación a la Zona Este de São Paulo desde 1970.",
+  "about": {
+    "title": "Sobre la escuela",
+    "text": "Escuela pública de la red estatal de São Paulo, en Parque Císper, distrito de Cangaíba, en la Zona Este de la ciudad. Atiende a niños, jóvenes y adultos, desde la Educación Primaria hasta la Secundaria, incluida la Educación de Jóvenes y Adultos (EJA) y cursos técnicos.",
+    "network": "Red",
+    "networkValue": "Estatal – Secretaría de Educación de SP",
+    "shifts": "Turnos",
+    "shiftsValue": "Diurno y nocturno",
+    "inep": "Código INEP",
+    "patron": "Patrono"
+  },
   "levelsTitle": "Niveles de enseñanza",
   "levels": [
     {
-      "name": "Educación Primaria",
-      "grades": "3.º, 4.º, 5.º, 6.º, 7.º y 8.º grado"
+      "name": "Educación Primaria – Años iniciales",
+      "grades": "1.º a 5.º año"
+    },
+    {
+      "name": "Educación Primaria – Años finales",
+      "grades": "6.º a 9.º año"
     },
     {
       "name": "Educación Secundaria",
@@ -17,12 +31,70 @@
       "grades": "1.º, 2.º y 3.º término"
     },
     {
-      "name": "Ciclo inicial de 9 años",
-      "grades": "3.º año"
+      "name": "Educación Técnica",
+      "grades": "Administración y Ventas"
     }
   ],
+  "source": "Fuente: Censo Escolar (INEP).",
   "locationTitle": "Dónde estamos",
   "openMap": "Abrir en Google Maps",
+  "contact": {
+    "address": "Dirección",
+    "phone": "Teléfono",
+    "email": "Correo electrónico"
+  },
+  "history": {
+    "title": "Nuestra historia",
+    "intro": "La escuela lleva el nombre del periodista Francisco Mesquita, que durante más de cuatro décadas dirigió el periódico O Estado de S. Paulo y participó en momentos clave de la historia paulista y brasileña.",
+    "timeline": [
+      {
+        "year": "1893",
+        "text": "Nace en São Paulo el 22 de abril, hijo de Julio Mesquita, director de O Estado de S. Paulo."
+      },
+      {
+        "year": "1916",
+        "text": "Se gradúa en la Facultad de Derecho del Largo de São Francisco. En 1913 fue máximo goleador del Club Athletico Paulistano."
+      },
+      {
+        "year": "1927",
+        "text": "Tras la muerte de su padre, asume la dirección del periódico junto a su hermano, Julio de Mesquita Filho."
+      },
+      {
+        "year": "1932",
+        "text": "Lucha como voluntario en la Revolución Constitucionalista. Es detenido y exiliado en Portugal."
+      },
+      {
+        "year": "1934",
+        "text": "Elegido diputado constituyente, participa en la creación de la Universidad de São Paulo (USP)."
+      },
+      {
+        "year": "1940",
+        "text": "Es detenido durante 40 días en el Estado Novo, mientras el periódico sufre intervención del gobierno hasta 1945."
+      },
+      {
+        "year": "1969",
+        "text": "Muere en São Paulo el 8 de noviembre, a los 76 años."
+      },
+      {
+        "year": "1970",
+        "text": "Un decreto estatal del 21 de enero da a la escuela, entonces Ginásio Estadual do Jardim Popular, el nombre de Jornalista Francisco Mesquita."
+      }
+    ]
+  },
+  "structure": {
+    "title": "Instalaciones",
+    "items": [
+      "Biblioteca y sala de lectura",
+      "Laboratorio de informática",
+      "Portátiles y tabletas para los alumnos",
+      "Pizarra digital",
+      "Internet de banda ancha",
+      "Patio cubierto",
+      "Atención Educativa Especializada (AEE)",
+      "Baño accesible",
+      "Alimentación escolar"
+    ]
+  },
   "socialTitle": "Síguenos en Facebook",
   "footer": "@:name {0}",
   "repo": "repositorio publico",

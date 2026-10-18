@@ -1,12 +1,26 @@
 {
   "name": "E.E.Jornalista Francisco Mesquita",
   "welcome": "Hoş geldiniz",
-  "tagline": "São Paulo’nun Doğu Bölgesi’ne eğitim götüren devlet okulu.",
+  "tagline": "1970’ten beri São Paulo’nun Doğu Bölgesi’ne eğitim götüren devlet okulu.",
+  "about": {
+    "title": "Okul hakkında",
+    "text": "São Paulo eyalet ağına bağlı bir devlet okulu; şehrin Doğu Bölgesi’nde, Cangaíba ilçesinin Parque Císper mahallesindedir. İlkokuldan liseye kadar çocuklara, gençlere ve yetişkinlere hizmet verir; Gençler ve Yetişkinler için Eğitim (EJA) ile teknik kursları da kapsar.",
+    "network": "Bağlı olduğu kurum",
+    "networkValue": "Eyalet – São Paulo Eğitim Sekreterliği",
+    "shifts": "Öğretim",
+    "shiftsValue": "Gündüz ve akşam",
+    "inep": "INEP kodu",
+    "patron": "Adını aldığı kişi"
+  },
   "levelsTitle": "Eğitim seviyeleri",
   "levels": [
     {
-      "name": "İlkokul",
-      "grades": "3., 4., 5., 6., 7. ve 8. sınıf"
+      "name": "İlköğretim – İlk yıllar",
+      "grades": "1. ile 5. sınıf arası"
+    },
+    {
+      "name": "İlköğretim – Son yıllar",
+      "grades": "6. ile 9. sınıf arası"
     },
     {
       "name": "Lise",
@@ -17,12 +31,70 @@
       "grades": "1., 2. ve 3. dönem"
     },
     {
-      "name": "9 Yıllık Başlangıç Döngüsü",
-      "grades": "3. yıl"
+      "name": "Teknik eğitim",
+      "grades": "İşletme ve Satış"
     }
   ],
+  "source": "Kaynak: Okul Sayımı (INEP).",
   "locationTitle": "Neredeyiz",
   "openMap": "Google Haritalar’da aç",
+  "contact": {
+    "address": "Adres",
+    "phone": "Telefon",
+    "email": "E-posta"
+  },
+  "history": {
+    "title": "Tarihçemiz",
+    "intro": "Okul, kırk yılı aşkın süre O Estado de S. Paulo gazetesini yöneten ve São Paulo ile Brezilya tarihinin önemli anlarında yer alan gazeteci Francisco Mesquita’nın adını taşır.",
+    "timeline": [
+      {
+        "year": "1893",
+        "text": "22 Nisan’da São Paulo’da, O Estado de S. Paulo’nun direktörü Julio Mesquita’nın oğlu olarak doğar."
+      },
+      {
+        "year": "1916",
+        "text": "Largo de São Francisco Hukuk Fakültesi’nden mezun olur. 1913’te Club Athletico Paulistano’nun gol kralıydı."
+      },
+      {
+        "year": "1927",
+        "text": "Babasının ölümünden sonra gazetenin yönetimini kardeşi Julio de Mesquita Filho ile birlikte üstlenir."
+      },
+      {
+        "year": "1932",
+        "text": "Anayasacı Devrim’de gönüllü olarak savaşır. Tutuklanır ve Portekiz’e sürgün edilir."
+      },
+      {
+        "year": "1934",
+        "text": "Kurucu meclis üyesi seçilir ve São Paulo Üniversitesi’nin (USP) kuruluşunda yer alır."
+      },
+      {
+        "year": "1940",
+        "text": "Estado Novo döneminde 40 gün gözaltında kalır; gazete 1945’e kadar hükümet denetiminde kalır."
+      },
+      {
+        "year": "1969",
+        "text": "8 Kasım’da, 76 yaşında São Paulo’da ölür."
+      },
+      {
+        "year": "1970",
+        "text": "21 Ocak tarihli eyalet kararnamesiyle, o zamanki Ginásio Estadual do Jardim Popular’a Jornalista Francisco Mesquita adı verilir."
+      }
+    ]
+  },
+  "structure": {
+    "title": "Olanaklar",
+    "items": [
+      "Kütüphane ve okuma salonu",
+      "Bilgisayar laboratuvarı",
+      "Öğrenciler için dizüstü bilgisayar ve tablet",
+      "Akıllı tahta",
+      "Geniş bant internet",
+      "Kapalı avlu",
+      "Özel Eğitim Hizmetleri (AEE)",
+      "Engelli tuvaleti",
+      "Okul yemeği"
+    ]
+  },
   "socialTitle": "Bizi Facebook’ta takip edin",
   "footer": "@:name {0}",
   "repo": "genel depo",

@@ -1,12 +1,26 @@
 {
   "name": "E.E.Jornalista Francisco Mesquita",
   "welcome": "Seja bem-vindo",
-  "tagline": "Escola pública estadual levando educação à Zona Leste de São Paulo.",
+  "tagline": "Escola pública estadual levando educação à Zona Leste de São Paulo desde 1970.",
+  "about": {
+    "title": "Sobre a escola",
+    "text": "Escola pública da rede estadual de São Paulo, no Parque Císper, distrito de Cangaíba, Zona Leste da capital. Atende crianças, jovens e adultos, do Ensino Fundamental ao Ensino Médio, incluindo a Educação de Jovens e Adultos (EJA) e cursos técnicos.",
+    "network": "Rede",
+    "networkValue": "Estadual – Secretaria da Educação de SP",
+    "shifts": "Períodos",
+    "shiftsValue": "Diurno e noturno",
+    "inep": "Código INEP",
+    "patron": "Patrono"
+  },
   "levelsTitle": "Níveis de ensino",
   "levels": [
     {
-      "name": "Ensino Fundamental",
-      "grades": "3ª, 4ª, 5ª, 6ª, 7ª e 8ª série"
+      "name": "Ensino Fundamental – Anos Iniciais",
+      "grades": "1º ao 5º ano"
+    },
+    {
+      "name": "Ensino Fundamental – Anos Finais",
+      "grades": "6º ao 9º ano"
     },
     {
       "name": "Ensino Médio",
@@ -17,12 +31,70 @@
       "grades": "1º, 2º e 3º termo"
     },
     {
-      "name": "Ciclo Inicial de 9 anos",
-      "grades": "3º ano"
+      "name": "Ensino Técnico",
+      "grades": "Administração e Vendas"
     }
   ],
+  "source": "Fonte: Censo Escolar (INEP).",
   "locationTitle": "Onde estamos",
   "openMap": "Abrir no Google Maps",
+  "contact": {
+    "address": "Endereço",
+    "phone": "Telefone",
+    "email": "E-mail"
+  },
+  "history": {
+    "title": "Nossa história",
+    "intro": "A escola leva o nome do jornalista Francisco Mesquita, que por mais de quatro décadas dirigiu o jornal O Estado de S. Paulo e participou de momentos marcantes da história paulista e brasileira.",
+    "timeline": [
+      {
+        "year": "1893",
+        "text": "Nasce em São Paulo, em 22 de abril, filho de Julio Mesquita, diretor de O Estado de S. Paulo."
+      },
+      {
+        "year": "1916",
+        "text": "Forma-se pela Faculdade de Direito do Largo de São Francisco. Em 1913, foi artilheiro do Club Athletico Paulistano."
+      },
+      {
+        "year": "1927",
+        "text": "Com a morte do pai, assume a direção do jornal ao lado do irmão, Julio de Mesquita Filho."
+      },
+      {
+        "year": "1932",
+        "text": "Luta como voluntário na Revolução Constitucionalista. É preso e exilado em Portugal."
+      },
+      {
+        "year": "1934",
+        "text": "Eleito deputado constituinte, participa da criação da Universidade de São Paulo (USP)."
+      },
+      {
+        "year": "1940",
+        "text": "É preso por 40 dias durante o Estado Novo, quando o jornal sofre intervenção do governo até 1945."
+      },
+      {
+        "year": "1969",
+        "text": "Morre em São Paulo, em 8 de novembro, aos 76 anos."
+      },
+      {
+        "year": "1970",
+        "text": "Decreto estadual de 21 de janeiro dá o nome de Jornalista Francisco Mesquita à escola, então Ginásio Estadual do Jardim Popular."
+      }
+    ]
+  },
+  "structure": {
+    "title": "Estrutura",
+    "items": [
+      "Biblioteca e sala de leitura",
+      "Laboratório de informática",
+      "Notebooks e tablets para os alunos",
+      "Lousa digital",
+      "Internet banda larga",
+      "Pátio coberto",
+      "Atendimento Educacional Especializado (AEE)",
+      "Banheiro acessível",
+      "Alimentação escolar"
+    ]
+  },
   "socialTitle": "Acompanhe no Facebook",
   "footer": "@:name {0}",
   "repo": "repositório público",

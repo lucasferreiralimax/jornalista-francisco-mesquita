@@ -1,28 +1,100 @@
 {
   "name": "E.E.Jornalista Francisco Mesquita",
   "welcome": "Welcome",
-  "tagline": "A public state school bringing education to the East Side of São Paulo.",
+  "tagline": "A public state school bringing education to the East Side of São Paulo since 1970.",
+  "about": {
+    "title": "About the school",
+    "text": "A public school in the São Paulo state network, located in Parque Císper, in the Cangaíba district on the East Side of the city. It serves children, teenagers and adults, from Elementary to High School, including Youth and Adult Education (EJA) and technical courses.",
+    "network": "Network",
+    "networkValue": "State – São Paulo Department of Education",
+    "shifts": "Shifts",
+    "shiftsValue": "Day and evening",
+    "inep": "INEP code",
+    "patron": "Named after"
+  },
   "levelsTitle": "Grade levels",
   "levels": [
     {
-      "name": "Elementary School",
-      "grades": "3rd, 4th, 5th, 6th, 7th and 8th grade"
+      "name": "Elementary School – Early Years",
+      "grades": "1st to 5th grade"
+    },
+    {
+      "name": "Elementary School – Final Years",
+      "grades": "6th to 9th grade"
     },
     {
       "name": "High School",
-      "grades": "1st, 2nd and 3rd grade"
+      "grades": "1st, 2nd and 3rd year"
     },
     {
       "name": "EJA (Youth and Adult Education) – High School",
       "grades": "1st, 2nd and 3rd term"
     },
     {
-      "name": "9-Year Initial Cycle",
-      "grades": "3rd year"
+      "name": "Technical Education",
+      "grades": "Business Administration and Sales"
     }
   ],
+  "source": "Source: School Census (INEP).",
   "locationTitle": "Where we are",
   "openMap": "Open in Google Maps",
+  "contact": {
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email"
+  },
+  "history": {
+    "title": "Our history",
+    "intro": "The school is named after journalist Francisco Mesquita, who ran the newspaper O Estado de S. Paulo for more than four decades and took part in defining moments of São Paulo and Brazilian history.",
+    "timeline": [
+      {
+        "year": "1893",
+        "text": "Born in São Paulo on April 22, son of Julio Mesquita, director of O Estado de S. Paulo."
+      },
+      {
+        "year": "1916",
+        "text": "Graduates from the Largo de São Francisco Law School. In 1913 he had been top scorer for Club Athletico Paulistano."
+      },
+      {
+        "year": "1927",
+        "text": "After his father’s death, he takes over the newspaper alongside his brother, Julio de Mesquita Filho."
+      },
+      {
+        "year": "1932",
+        "text": "Fights as a volunteer in the Constitutionalist Revolution. He is arrested and exiled to Portugal."
+      },
+      {
+        "year": "1934",
+        "text": "Elected to the state constituent assembly, he helps create the University of São Paulo (USP)."
+      },
+      {
+        "year": "1940",
+        "text": "Held for 40 days during the Estado Novo regime, while the newspaper is under government control until 1945."
+      },
+      {
+        "year": "1969",
+        "text": "Dies in São Paulo on November 8, aged 76."
+      },
+      {
+        "year": "1970",
+        "text": "A state decree of January 21 gives the school, then Ginásio Estadual do Jardim Popular, the name Jornalista Francisco Mesquita."
+      }
+    ]
+  },
+  "structure": {
+    "title": "Facilities",
+    "items": [
+      "Library and reading room",
+      "Computer lab",
+      "Laptops and tablets for students",
+      "Interactive whiteboard",
+      "Broadband internet",
+      "Covered courtyard",
+      "Special Education Services (AEE)",
+      "Accessible restroom",
+      "School meals"
+    ]
+  },
   "socialTitle": "Follow us on Facebook",
   "footer": "@:name {0}",
   "repo": "public repository",
