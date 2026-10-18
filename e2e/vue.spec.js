@@ -34,8 +34,17 @@ test.describe('mobile', () => {
 
   test('has no horizontal scroll and lists the grade levels', async ({ page }) => {
     await page.goto('/pt-BR');
-    await expect(page.locator('.levels__item')).toHaveCount(4);
+    await expect(page.locator('.levels__item')).toHaveCount(5);
     const overflow = await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
     expect(overflow).toBeLessThanOrEqual(0);
   });
+});
+
+test('shows school history, contact and facilities in every section', async ({ page }) => {
+  await page.goto('/pt-BR');
+  for (const name of ['Sobre a escola', 'Níveis de ensino', 'Onde estamos', 'Nossa história', 'Estrutura']) {
+    await expect(page.getByRole('heading', { level: 2, name })).toBeVisible();
+  }
+  await expect(page.locator('.timeline__item')).toHaveCount(8);
+  await expect(page.getByRole('link', { name: '(11) 2943-0800' })).toHaveAttribute('href', 'tel:+551129430800');
 });
