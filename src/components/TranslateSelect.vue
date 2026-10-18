@@ -62,15 +62,30 @@ watch(currentLocale, (val) => {
   white-space: nowrap;
   border: 0;
 }
+.translate {
+  flex-shrink: 0;
+}
 .translate-options {
-  padding: 5px;
-  margin-bottom: 5px;
-  border-radius: 5px;
+  min-height: 44px;
+  max-width: 44vw;
+  padding: .5rem 2rem .5rem .875rem;
+  border: 1px solid #c9d4dd;
+  border-radius: 999px;
+  background: #fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='none' stroke='%2313293d' stroke-width='2' d='M1 1l5 5 5-5'/%3E%3C/svg%3E") no-repeat right .875rem center;
+  color: var(--text-strong);
+  font: inherit;
+  font-size: .9375rem;
+  text-overflow: ellipsis;
   cursor: pointer;
-  position: fixed;
-  top: 2rem;
-  right: 2rem;
-  z-index: 11;
-  box-shadow: 0 0 0 5px #fff, 0 0 0 7px rgba(0, 0, 0, .2), 0 0 10px 7px rgba(0, 0, 0, .2);
+  appearance: none;
+  transition: border-color .2s ease, box-shadow .2s ease;
+
+  &:hover { border-color: var(--brand-blue); }
+
+  @media (max-width: 480px) {
+    padding: .375rem 1.75rem .375rem .75rem;
+    background-position: right .625rem center;
+    font-size: .875rem;
+  }
 }
 </style>
