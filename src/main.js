@@ -2,17 +2,17 @@ import { createApp } from 'vue'
 
 import App from './App.vue'
 import setupRouter from './router';
-import { setupI18n } from './i18n';
-import pt from './locales/pt-BR.json';
+import { setupI18n, getInitialLocale, DEFAULT_LOCALE } from './i18n';
+import ptBR from './locales/pt-BR.json';
 
 const app = createApp(App)
 const i18n = setupI18n({
   globalInjection: true,
   legacy: false,
-  locale: 'pt-BR',
-  fallbackLocale: 'pt-BR',
+  locale: getInitialLocale(),
+  fallbackLocale: DEFAULT_LOCALE,
   messages: {
-    pt,
+    [DEFAULT_LOCALE]: ptBR,
   },
 });
 const router = setupRouter(i18n);
