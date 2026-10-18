@@ -33,3 +33,27 @@ describe('TranslateSelect', () => {
     expect(document.documentElement.lang).toBe('en-US')
   })
 })
+
+describe('TranslateSelect edge cases', () => {
+  it('falls back to the locale code when the browser cannot name the language', async () => {
+    const spy = vi.spyOn(Intl, 'DisplayNames').mockImplementation(() => { throw new RangeError('unsupported') })
+    const { wrapper } = await mountSelect()
+    expect(wrapper.findAll('option').map((o) => o.text())).toEqual(SUPPORT_LOCALES)
+    spy.mockRestore()
+  })
+
+  it('does not navigate when the current language is selected again', async () => {
+    const { wrapper, router } = await mountSelect()
+    const push = vi.spyOn(router, 'push')
+    await wrapper.find('select').setValue('pt-BR')
+    await flushPromises()
+    expect(push).not.toHaveBeenCalled()
+  })
+
+  it('follows navigation done elsewhere (links, back button)', async () => {
+    const { wrapper, router } = await mountSelect()
+    await router.push('/es-ES/')
+    await flushPromises()
+    expect(wrapper.find('select').element.value).toBe('es-ES')
+  })
+})
