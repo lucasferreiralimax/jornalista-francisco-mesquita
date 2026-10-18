@@ -47,7 +47,8 @@ npm run dev
 | `npm run build` | Production build into `dist/` |
 | `npm run preview` | Serves the production build locally |
 | `npm run test:unit` | Unit tests in watch mode (add `-- --run` to run once) |
-| `npm run test:e2e` | End-to-end tests in Chromium, Firefox and WebKit |
+| `npm run test:coverage` | Unit tests once with a coverage report (`coverage/index.html`) |
+| `npm run test:e2e` | End-to-end tests in Chromium, Firefox and WebKit: languages, content, responsive layout and accessibility (axe-core) |
 | `npm run lint` | Lints and fixes what can be fixed automatically |
 | `npm run lint:check` | Lints without changing files (used on CI) |
 
