@@ -30,10 +30,10 @@ const { t } = useI18n();
   position: sticky;
   top: 0;
   z-index: 10;
-  background: rgba(255, 255, 255, .55);
-  backdrop-filter: blur(16px) saturate(160%);
-  -webkit-backdrop-filter: blur(16px) saturate(160%);
-  border-bottom: 1px solid rgba(255, 255, 255, .6);
+  background: var(--glass-bar);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border-bottom: 1px solid var(--glass-border);
   box-shadow: 0 4px 24px rgba(4, 38, 56, .15);
 
   // Without blur support the transparent bar would hurt legibility

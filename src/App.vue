@@ -14,18 +14,35 @@ import FooterApp from '@/components/FooterApp.vue'
 
 <style lang="scss">
 :root {
-  --brand-blue: #0a5c8a;
+  --brand-blue: #07476b;
+  --brand-blue-dark: #053551;
   --brand-green: #00a63f;
   --brand-yellow: #f5c400;
   --text: #2c3e50;
   --text-strong: #13293d;
-  --text-muted: #5a6b7b;
+  --text-muted: #3a4b5c;
   --surface: #fff;
   --surface-glass: rgba(255, 255, 255, .9);
+  --glass-bar: rgba(255, 255, 255, .62);
+  --glass-card: rgba(255, 255, 255, .76);
+  --glass-inset: rgba(255, 255, 255, .6);
+  --glass-border: rgba(255, 255, 255, .6);
+  --glass-blur: blur(16px) saturate(160%);
   --radius: 16px;
   --shadow-sm: 0 1px 3px rgba(0, 0, 0, .12);
   --shadow: 0 10px 30px rgba(6, 40, 61, .25);
   --gutter: clamp(1rem, 4vw, 2rem);
+}
+
+// Respect OS settings for less transparency / more contrast
+@media (prefers-reduced-transparency: reduce), (prefers-contrast: more) {
+  :root {
+    --glass-bar: #fff;
+    --glass-card: #fff;
+    --glass-inset: #eef3f7;
+    --glass-blur: none;
+    --text-muted: #2c3e50;
+  }
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -72,7 +89,12 @@ body {
   padding-block: clamp(1.5rem, 4vw, 3rem);
 }
 
-a { color: var(--brand-blue); }
+a {
+  color: var(--brand-blue);
+  text-underline-offset: .15em;
+
+  &:hover { color: var(--brand-blue-dark); }
+}
 
 :focus-visible {
   outline: 3px solid var(--brand-yellow);

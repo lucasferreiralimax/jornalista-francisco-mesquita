@@ -121,10 +121,18 @@ const mapsUrl = 'https://www.google.com/maps/search/?api=1&query=EE+Jornalista+F
 }
 
 .card {
-  background: var(--surface);
+  background: var(--glass-card);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   padding: clamp(1.25rem, 3vw, 2rem);
+
+  // Without blur support the transparent card would hurt legibility
+  @supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+    background: var(--surface-glass);
+  }
 }
 
 .card__header {
@@ -178,7 +186,7 @@ const mapsUrl = 'https://www.google.com/maps/search/?api=1&query=EE+Jornalista+F
   padding: .75rem 1rem;
   border-left: 4px solid var(--brand-yellow);
   border-radius: 0 10px 10px 0;
-  background: #f4f8fb;
+  background: var(--glass-inset);
 
   &:nth-child(2) { border-left-color: var(--brand-green); }
   &:nth-child(3) { border-left-color: var(--brand-blue); }
@@ -233,6 +241,6 @@ const mapsUrl = 'https://www.google.com/maps/search/?api=1&query=EE+Jornalista+F
   text-decoration: none;
   transition: background-color .2s ease;
 
-  &:hover { background: #084a70; }
+  &:hover { background: var(--brand-blue-dark); }
 }
 </style>
