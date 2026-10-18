@@ -27,16 +27,18 @@ const { t } = useI18n();
 
 <style scoped lang="scss">
 .header {
-  position: relative;
+  position: sticky;
+  top: 0;
   z-index: 10;
-  background: var(--surface-glass);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  box-shadow: var(--shadow-sm);
+  background: rgba(255, 255, 255, .55);
+  backdrop-filter: blur(16px) saturate(160%);
+  -webkit-backdrop-filter: blur(16px) saturate(160%);
+  border-bottom: 1px solid rgba(255, 255, 255, .6);
+  box-shadow: 0 4px 24px rgba(4, 38, 56, .15);
 
-  @media (min-width: 600px) {
-    position: sticky;
-    top: 0;
+  // Without blur support the transparent bar would hurt legibility
+  @supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+    background: var(--surface-glass);
   }
 }
 
@@ -46,6 +48,11 @@ const { t } = useI18n();
   justify-content: space-between;
   gap: 1rem;
   padding-block: .75rem;
+
+  @media (max-width: 480px) {
+    gap: .75rem;
+    padding-block: .5rem;
+  }
 }
 
 .brand {
@@ -57,7 +64,7 @@ const { t } = useI18n();
 
 .brand__logo {
   flex-shrink: 0;
-  width: clamp(44px, 9vw, 64px);
+  width: clamp(40px, 9vw, 64px);
   height: auto;
   border-radius: 50%;
   animation: 4s logo-glow infinite alternate;
@@ -68,7 +75,7 @@ const { t } = useI18n();
 
 .brand__name {
   margin: 0;
-  font-size: clamp(1rem, 2.6vw, 1.375rem);
+  font-size: clamp(.875rem, 2.6vw, 1.375rem);
   line-height: 1.2;
   color: var(--text-strong);
 }
