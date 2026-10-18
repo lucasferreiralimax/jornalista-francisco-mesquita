@@ -22,11 +22,18 @@ const { t } = useI18n();
 
 <style scoped lang="scss">
 .footer {
-  background: var(--surface-glass);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  background: var(--glass-bar);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border-top: 1px solid var(--glass-border);
+  box-shadow: 0 -4px 24px rgba(4, 38, 56, .15);
   font-size: .9375rem;
-  color: var(--text-muted);
+  color: var(--text-strong);
+
+  // Without blur support the transparent bar would hurt legibility
+  @supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+    background: var(--surface-glass);
+  }
 }
 
 .footer__inner {
@@ -36,8 +43,5 @@ const { t } = useI18n();
   p { margin: 0; }
 }
 
-a {
-  color: var(--brand-blue);
-  font-weight: 600;
-}
+a { font-weight: 600; }
 </style>
