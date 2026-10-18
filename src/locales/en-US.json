@@ -3,5 +3,8 @@
   "welcome": "Welcome",
   "info": "Elementary Education - 3rd, 4th, 5th, 6th, 7th and 8th Grade\n High School - 1st, 2nd and 3rd Grade\n Eja - High School - 1st, 2nd and 3rd Term\n Initial Cycle of 9 Years - 3rd Year",
   "footer": "@:name {0}",
-  "repo": "public repository"
+  "repo": "public repository",
+  "language": "Language",
+  "mapTitle": "Map of the school location",
+  "facebookTitle": "School Facebook page"
 }

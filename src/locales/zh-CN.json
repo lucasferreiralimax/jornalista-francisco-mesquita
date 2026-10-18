@@ -3,5 +3,8 @@
   "welcome": "欢迎",
   "info": "基础教育-3年级，4年级，5年级，6年级，7年级和8年级\n 高中-一，二，三年级\n Eja - 高中-第一，第二和第三学期\n 初始周期为9年-第三年",
   "footer": "@:name {0}",
-  "repo": "公共仓库"
+  "repo": "公共仓库",
+  "language": "语言",
+  "mapTitle": "学校位置地图",
+  "facebookTitle": "学校的 Facebook 主页"
 }

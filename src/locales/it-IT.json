@@ -3,5 +3,8 @@
   "welcome": "Benvenuto",
   "info": "Istruzione elementare - 3 °, 4 °, 5 °, 6 °, 7 ° e 8 ° grado\n Scuola superiore - 1 °, 2 ° e 3 ° grado\n Eja - Scuola superiore - 1 °, 2 ° e 3 ° trimestre\n Ciclo iniziale di 9 anni - 3 ° anno",
   "footer": "@:name {0}",
-  "repo": "archivio pubblico"
+  "repo": "archivio pubblico",
+  "language": "Lingua",
+  "mapTitle": "Mappa della posizione della scuola",
+  "facebookTitle": "Pagina Facebook della scuola"
 }

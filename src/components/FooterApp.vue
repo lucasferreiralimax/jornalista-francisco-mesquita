@@ -5,8 +5,16 @@ const { t } = useI18n();
 
 <template>
   <footer class="footer">
-    <i18n-t keypath="footer" tag="p" for="repo">
-      <a href="https://github.com/lucasferreiralimax/jornalista-francisco-mesquita" target="_blank">{{ t('repo') }}</a>
+    <i18n-t
+      keypath="footer"
+      tag="p"
+      for="repo"
+    >
+      <a
+        href="https://github.com/lucasferreiralimax/jornalista-francisco-mesquita"
+        target="_blank"
+        rel="noopener noreferrer"
+      >{{ t('repo') }}</a>
     </i18n-t>
   </footer>
 </template>
