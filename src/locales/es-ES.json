@@ -1,7 +1,29 @@
 {
   "name": "E.E.Jornalista Francisco Mesquita",
-  "welcome": "Sea bienvenido",
-  "info": "Enseignement élémentaire - 3e, 4e, 5e, 6e, 7e et 8e année\n Lycée - 1re, 2e et 3e année\n Eja - Lycée - 1er, 2e et 3e quadrimestre\n Cycle initial de 9 ans - 3e année",
+  "welcome": "Bienvenido",
+  "tagline": "Escuela pública estatal que lleva educación a la Zona Este de São Paulo.",
+  "levelsTitle": "Niveles de enseñanza",
+  "levels": [
+    {
+      "name": "Educación Primaria",
+      "grades": "3.º, 4.º, 5.º, 6.º, 7.º y 8.º grado"
+    },
+    {
+      "name": "Educación Secundaria",
+      "grades": "1.º, 2.º y 3.º año"
+    },
+    {
+      "name": "EJA – Educación Secundaria",
+      "grades": "1.º, 2.º y 3.º término"
+    },
+    {
+      "name": "Ciclo inicial de 9 años",
+      "grades": "3.º año"
+    }
+  ],
+  "locationTitle": "Dónde estamos",
+  "openMap": "Abrir en Google Maps",
+  "socialTitle": "Síguenos en Facebook",
   "footer": "@:name {0}",
   "repo": "repositorio publico",
   "language": "Idioma",

@@ -1,7 +1,29 @@
 {
   "name": "E.E.Jornalista Francisco Mesquita",
   "welcome": "Seja bem-vindo",
-  "info": "Ensino Fundamental - 3ª, 4ª, 5ª, 6ª, 7ª e 8ª Série\n Ensino Médio - 1ª, 2ª e 3ª Série\n Eja - Ensino Médio - 1º, 2º e 3º Termo\n Ciclo Inicial de 9 Anos - 3º Ano",
+  "tagline": "Escola pública estadual levando educação à Zona Leste de São Paulo.",
+  "levelsTitle": "Níveis de ensino",
+  "levels": [
+    {
+      "name": "Ensino Fundamental",
+      "grades": "3ª, 4ª, 5ª, 6ª, 7ª e 8ª série"
+    },
+    {
+      "name": "Ensino Médio",
+      "grades": "1ª, 2ª e 3ª série"
+    },
+    {
+      "name": "EJA – Ensino Médio",
+      "grades": "1º, 2º e 3º termo"
+    },
+    {
+      "name": "Ciclo Inicial de 9 anos",
+      "grades": "3º ano"
+    }
+  ],
+  "locationTitle": "Onde estamos",
+  "openMap": "Abrir no Google Maps",
+  "socialTitle": "Acompanhe no Facebook",
   "footer": "@:name {0}",
   "repo": "repositório público",
   "language": "Idioma",

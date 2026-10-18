@@ -1,7 +1,29 @@
 {
   "name": "E.E.Jornalista Francisco Mesquita",
   "welcome": "ようこそ",
-  "info": "初等教育-3年生、4年生、5年生、6年生、7年生、8年生\n 高校-1年生、2年生、3年生\n Eja - 高校-第1、第2、第3学期\n 9年の初期サイクル-3年目",
+  "tagline": "サンパウロ東部に教育を届ける州立の公立学校です。",
+  "levelsTitle": "教育課程",
+  "levels": [
+    {
+      "name": "初等教育",
+      "grades": "3年生、4年生、5年生、6年生、7年生、8年生"
+    },
+    {
+      "name": "高校",
+      "grades": "1年生、2年生、3年生"
+    },
+    {
+      "name": "EJA – 高校",
+      "grades": "第1、第2、第3学期"
+    },
+    {
+      "name": "9年制初期サイクル",
+      "grades": "3年目"
+    }
+  ],
+  "locationTitle": "所在地",
+  "openMap": "Google マップで開く",
+  "socialTitle": "Facebook でフォロー",
   "footer": "@:name {0}",
   "repo": "公開リポジトリ",
   "language": "言語",

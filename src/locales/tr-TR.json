@@ -1,7 +1,29 @@
 {
   "name": "E.E.Jornalista Francisco Mesquita",
-  "welcome": "Hoş geldin",
-  "info": "İlkokul - 3ª, 4ª, 5ª, 6ª, 7ª e 8ª Seri\n Lise - 1ª, 2ª e 3ª Seri\n Eja - Lise - 1º, 2º e 3º Terim\n 9 Yıllık Başlangıç ​​Döngüsü - 3º Yıl",
+  "welcome": "Hoş geldiniz",
+  "tagline": "São Paulo’nun Doğu Bölgesi’ne eğitim götüren devlet okulu.",
+  "levelsTitle": "Eğitim seviyeleri",
+  "levels": [
+    {
+      "name": "İlkokul",
+      "grades": "3., 4., 5., 6., 7. ve 8. sınıf"
+    },
+    {
+      "name": "Lise",
+      "grades": "1., 2. ve 3. sınıf"
+    },
+    {
+      "name": "EJA – Lise",
+      "grades": "1., 2. ve 3. dönem"
+    },
+    {
+      "name": "9 Yıllık Başlangıç Döngüsü",
+      "grades": "3. yıl"
+    }
+  ],
+  "locationTitle": "Neredeyiz",
+  "openMap": "Google Haritalar’da aç",
+  "socialTitle": "Bizi Facebook’ta takip edin",
   "footer": "@:name {0}",
   "repo": "genel depo",
   "language": "Dil",

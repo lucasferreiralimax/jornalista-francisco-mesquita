@@ -1,7 +1,29 @@
 {
   "name": "E.E.Jornalista Francisco Mesquita",
   "welcome": "欢迎",
-  "info": "基础教育-3年级，4年级，5年级，6年级，7年级和8年级\n 高中-一，二，三年级\n Eja - 高中-第一，第二和第三学期\n 初始周期为9年-第三年",
+  "tagline": "为圣保罗东区带来教育的公立州立学校。",
+  "levelsTitle": "教学阶段",
+  "levels": [
+    {
+      "name": "基础教育",
+      "grades": "3、4、5、6、7、8 年级"
+    },
+    {
+      "name": "高中",
+      "grades": "一、二、三年级"
+    },
+    {
+      "name": "EJA – 高中",
+      "grades": "第一、二、三学期"
+    },
+    {
+      "name": "9 年制初始阶段",
+      "grades": "第三年"
+    }
+  ],
+  "locationTitle": "学校位置",
+  "openMap": "在 Google 地图中打开",
+  "socialTitle": "在 Facebook 上关注我们",
   "footer": "@:name {0}",
   "repo": "公共仓库",
   "language": "语言",

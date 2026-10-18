@@ -1,7 +1,29 @@
 {
   "name": "E.E.Jornalista Francisco Mesquita",
   "welcome": "Welcome",
-  "info": "Elementary Education - 3rd, 4th, 5th, 6th, 7th and 8th Grade\n High School - 1st, 2nd and 3rd Grade\n Eja - High School - 1st, 2nd and 3rd Term\n Initial Cycle of 9 Years - 3rd Year",
+  "tagline": "A public state school bringing education to the East Side of São Paulo.",
+  "levelsTitle": "Grade levels",
+  "levels": [
+    {
+      "name": "Elementary School",
+      "grades": "3rd, 4th, 5th, 6th, 7th and 8th grade"
+    },
+    {
+      "name": "High School",
+      "grades": "1st, 2nd and 3rd grade"
+    },
+    {
+      "name": "EJA (Youth and Adult Education) – High School",
+      "grades": "1st, 2nd and 3rd term"
+    },
+    {
+      "name": "9-Year Initial Cycle",
+      "grades": "3rd year"
+    }
+  ],
+  "locationTitle": "Where we are",
+  "openMap": "Open in Google Maps",
+  "socialTitle": "Follow us on Facebook",
   "footer": "@:name {0}",
   "repo": "public repository",
   "language": "Language",

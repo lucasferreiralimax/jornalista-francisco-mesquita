@@ -1,7 +1,29 @@
 {
   "name": "E.E.Jornalista Francisco Mesquita",
   "welcome": "Benvenuto",
-  "info": "Istruzione elementare - 3 °, 4 °, 5 °, 6 °, 7 ° e 8 ° grado\n Scuola superiore - 1 °, 2 ° e 3 ° grado\n Eja - Scuola superiore - 1 °, 2 ° e 3 ° trimestre\n Ciclo iniziale di 9 anni - 3 ° anno",
+  "tagline": "Scuola pubblica statale che porta l’istruzione nella Zona Est di San Paolo.",
+  "levelsTitle": "Livelli di istruzione",
+  "levels": [
+    {
+      "name": "Istruzione elementare",
+      "grades": "3ª, 4ª, 5ª, 6ª, 7ª e 8ª classe"
+    },
+    {
+      "name": "Scuola superiore",
+      "grades": "1º, 2º e 3º anno"
+    },
+    {
+      "name": "EJA – Scuola superiore",
+      "grades": "1º, 2º e 3º periodo"
+    },
+    {
+      "name": "Ciclo iniziale di 9 anni",
+      "grades": "3º anno"
+    }
+  ],
+  "locationTitle": "Dove siamo",
+  "openMap": "Apri in Google Maps",
+  "socialTitle": "Seguici su Facebook",
   "footer": "@:name {0}",
   "repo": "archivio pubblico",
   "language": "Lingua",
